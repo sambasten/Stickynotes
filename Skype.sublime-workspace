@@ -1,0 +1,700 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"padd",
+				"padding\tproperty"
+			],
+			[
+				"mar",
+				"margin\tproperty"
+			],
+			[
+				"bott",
+				"margin-bottom\tproperty"
+			],
+			[
+				"backgr",
+				"background-color\tproperty"
+			],
+			[
+				"backg",
+				"background-color\tproperty"
+			],
+			[
+				"st",
+				"Status"
+			],
+			[
+				"cm",
+				"companies"
+			],
+			[
+				"comp",
+				"company_id"
+			],
+			[
+				"uns",
+				"unsigned"
+			],
+			[
+				"par",
+				"parseInt"
+			],
+			[
+				"Par",
+				"parseInt"
+			],
+			[
+				"shi",
+				"shipping"
+			],
+			[
+				"p",
+				"parseFloat"
+			],
+			[
+				"sc",
+				"script\tTag"
+			],
+			[
+				"sh",
+				"shipping"
+			],
+			[
+				"re",
+				"reload"
+			],
+			[
+				"font",
+				"font-style\tproperty"
+			],
+			[
+				"ba",
+				"background-image\tproperty"
+			],
+			[
+				"bac",
+				"background-size\tproperty"
+			],
+			[
+				"wi",
+				"width\tproperty"
+			],
+			[
+				"back",
+				"background-image\tproperty"
+			],
+			[
+				"login",
+				"loginfailed"
+			],
+			[
+				"form",
+				"form-control"
+			],
+			[
+				"qua",
+				"quantity"
+			],
+			[
+				"image",
+				"imageUrl"
+			],
+			[
+				"mysql_fe",
+				"mysql_fetch_assoc"
+			],
+			[
+				"float",
+				"floatval"
+			],
+			[
+				"fetch",
+				"mysqli_fetch"
+			],
+			[
+				"qu",
+				"queryRate"
+			],
+			[
+				"prod",
+				"productId"
+			],
+			[
+				"rat",
+				"rating"
+			],
+			[
+				"S",
+				"SELECT"
+			],
+			[
+				"a",
+				"alert"
+			],
+			[
+				"o",
+				"overallCost"
+			],
+			[
+				"query",
+				"queryRat"
+			],
+			[
+				"user",
+				"user_id"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"db",
+				"dbConnection"
+			],
+			[
+				"exec",
+				"execute"
+			],
+			[
+				"stat",
+				"statement"
+			],
+			[
+				"th",
+				"this"
+			],
+			[
+				"pay",
+				"payment"
+			],
+			[
+				"h",
+				"hash"
+			],
+			[
+				"new",
+				"newBalance"
+			],
+			[
+				"U",
+				"UPDATE"
+			],
+			[
+				"dbC",
+				"dbConnection"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"q",
+				"queryProd"
+			],
+			[
+				"fe",
+				"fetch_assoc"
+			],
+			[
+				"s",
+				"statement"
+			],
+			[
+				"_",
+				"_SESSION"
+			],
+			[
+				"to",
+				"totalPur"
+			],
+			[
+				"pre",
+				"prevBalance"
+			],
+			[
+				"prev",
+				"prevBalance"
+			],
+			[
+				"b",
+				"balance"
+			],
+			[
+				"bind",
+				"bind_result"
+			],
+			[
+				"total",
+				"totalPur"
+			],
+			[
+				"array_c",
+				"array_column"
+			],
+			[
+				"pr",
+				"product"
+			],
+			[
+				"alert",
+				"alert-success"
+			],
+			[
+				"array_s",
+				"array_sum"
+			],
+			[
+				"ale",
+				"alert-success"
+			],
+			[
+				"error",
+				"error_reporting"
+			],
+			[
+				"uc",
+				"ucwords"
+			],
+			[
+				"log",
+				"loggedin"
+			],
+			[
+				"de",
+				"dbConnection"
+			],
+			[
+				"use",
+				"user_id"
+			],
+			[
+				"session_re",
+				"session_regenerate_id"
+			],
+			[
+				"getC",
+				"getConnection"
+			],
+			[
+				"marg",
+				"margin-left\tproperty"
+			],
+			[
+				"radio",
+				"radioValue"
+			],
+			[
+				"ra",
+				"radio"
+			],
+			[
+				"pa",
+				"payNow"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"tot",
+				"totPur"
+			],
+			[
+				"tota",
+				"totalPur"
+			],
+			[
+				"ship",
+				"shipcost"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"val",
+				"val"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"Pay",
+				"payNow"
+			],
+			[
+				"cu",
+				"customerId"
+			],
+			[
+				"emp",
+				"emptyCart"
+			],
+			[
+				"remo",
+				"remove"
+			],
+			[
+				"ca",
+				"cart"
+			],
+			[
+				"js",
+				"json_encode"
+			],
+			[
+				"fon",
+				"font-size\tproperty"
+			],
+			[
+				"cart",
+				"cartArray"
+			],
+			[
+				"json",
+				"json_decode"
+			],
+			[
+				"int",
+				"intval"
+			],
+			[
+				"strip",
+				"strip_tags"
+			],
+			[
+				"MY",
+				"MYSQLDB"
+			],
+			[
+				"sess",
+				"session_start"
+			],
+			[
+				"local",
+				"localhost"
+			],
+			[
+				"arr",
+				"array\t$… = array (…)"
+			],
+			[
+				"pu",
+				"public"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"gt",
+				"getElementById"
+			],
+			[
+				"te",
+				"text-decoration\tproperty"
+			],
+			[
+				"fo",
+				"font-size\tproperty"
+			],
+			[
+				"font-s",
+				"font-size\tproperty"
+			],
+			[
+				"f",
+				"font\tproperty"
+			],
+			[
+				"op",
+				"option\tTag"
+			],
+			[
+				"l",
+				"li\tTag"
+			],
+			[
+				"u",
+				"ul\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 157.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/xampp/htdocs/churchporch/app/Http/Controllers/SocialiteController.php",
+		"/C/xampp/htdocs/churchporch/churchporch/app/Http/Controllers/Auth/RegisterController.php",
+		"/C/xampp/htdocs/churchporch/churchporch/database/migrations/2019_08_19_205752_create_church_announcement_table.php",
+		"/C/xampp/htdocs/churchporch/churchporch/database/migrations/2019_08_19_201855_create_church_calendar_table.php",
+		"/C/xampp/htdocs/churchporch/churchporch/database/migrations/2019_08_19_200427_create_church_resources_table.php",
+		"/C/xampp/htdocs/churchporch/churchporch/database/migrations/2019_08_19_195320_create_department_resources_table.php",
+		"/C/xampp/htdocs/churchporch/churchporch/database/migrations/2019_08_19_194144_create_department_member_table.php",
+		"/C/xampp/htdocs/churchporch/churchporch/database/migrations/2019_08_19_192937_create_department_table.php",
+		"/C/xampp/htdocs/churchporch/churchporch/database/migrations/2019_08_19_185923_create_member_table.php",
+		"/C/xampp/htdocs/churchporch/churchporch/database/migrations/2019_08_19_133924_create_church_table.php",
+		"/C/xampp/htdocs/churchporch/churchporch/resources/views/auth/login.blade.php",
+		"/C/xampp/htdocs/churchporch/churchporch/app/User.php",
+		"/C/xampp/htdocs/churchporch/churchporch/app/Http/Controllers/SocialAuthGoogleController.php",
+		"/C/xampp/htdocs/churchporch/churchporch/routes/web.php",
+		"/C/xampp/htdocs/churchporch/churchporch/app/Http/Controllers/SocialAuthFacebookController.php",
+		"/C/xampp/htdocs/churchporch/churchporch/config/services.php",
+		"/C/xampp/htdocs/churchporch/churchporch/config/app.php",
+		"/C/xampp/htdocs/churchporch/churchporch/database/migrations/2014_10_12_000000_create_users_table.php",
+		"/C/xampp/htdocs/churchporch/churchporch/resources/views/auth/register.blade.php",
+		"/C/xampp/htdocs/churchporch/churchporch/resources/views/welcome.blade.php",
+		"/C/xampp/htdocs/churchporch/churchporch/resources/views/layouts/app.blade.php",
+		"/C/xampp/htdocs/churchporch/churchporch/app/Http/Controllers/Auth/GoogleController.php",
+		"/C/xampp/htdocs/churchporch/churchporch/app/Http/Controllers/GoogleController.php",
+		"/C/xampp/htdocs/pmanager/pmanager/routes/web.php",
+		"/C/xampp/htdocs/pmanager/pmanager/database/migrations/2019_07_22_191727_create_companies_table.php",
+		"/C/xampp/htdocs/pmanager/pmanager/database/migrations/2014_10_12_000000_create_users_table.php",
+		"/C/xampp/htdocs/pmanager/pmanager/app/Project.php",
+		"/C/xampp/htdocs/pmanager/pmanager/app/ProjectUser.php",
+		"/C/xampp/htdocs/pmanager/pmanager/app/Role.php",
+		"/C/xampp/htdocs/pmanager/pmanager/app/Task.php",
+		"/C/xampp/htdocs/pmanager/pmanager/database/migrations/2019_07_22_194609_create_tasks_table.php",
+		"/C/xampp/htdocs/pmanager/pmanager/app/Comment.php",
+		"/C/xampp/htdocs/pmanager/pmanager/database/migrations/2019_07_23_190051_create_comments_table.php",
+		"/C/xampp/htdocs/pmanager/pmanager/database/migrations/2019_07_22_193002_create_projects_table.php",
+		"/C/xampp/htdocs/pmanager/pmanager/app/TaskUser.php",
+		"/C/xampp/htdocs/pmanager/pmanager/app/User.php",
+		"/C/xampp/htdocs/pmanager/pmanager/app/Company.php",
+		"/C/xampp/htdocs/pmanager/pmanager/database/migrations/2019_07_23_193505_create_project_user_table.php",
+		"/C/xampp/htdocs/pmanager/pmanager/database/migrations/2019_07_23_194126_create_task_user_table.php",
+		"/C/xampp/htdocs/pmanager/pmanager/database/migrations/2014_10_12_100000_create_password_resets_table.php",
+		"/C/xampp/htdocs/pmanager/pmanager/database/migrations/2019_07_23_192238_create_roles_table.php",
+		"/C/xampp/htdocs/laravel/laravel/.env.example",
+		"/C/xampp/htdocs/laravel/laravel/.env",
+		"/C/xampp/htdocs/sessioncartn/rating.js",
+		"/C/xampp/htdocs/sessioncart2/entity/Rating,php",
+		"/C/xampp/htdocs/sessioncart2/ajax.php",
+		"/C/newxampp/htdocs/sessioncart2/config.php",
+		"/C/newxampp/htdocs/sessioncart2/entity/Cart.php",
+		"/C/newxampp/htdocs/sessioncart2/login.php",
+		"/C/newxampp/htdocs/sessioncart2/authenticatelogin.php",
+		"/C/newxampp/htdocs/sessioncart2/Cart.php",
+		"/C/xampp/htdocs/sessioncart2/User.php",
+		"/C/xampp/htdocs/sessioncart2/login.php",
+		"/C/xampp/htdocs/sessioncart2/ajaxpayment.js",
+		"/C/xampp/htdocs/sessioncart2/payment.js",
+		"/C/xampp/htdocs/sessioncart2/paymentprocess.js",
+		"/C/xampp/htdocs/sessioncart2/paymentprocess.php",
+		"/C/xampp/htdocs/sessioncart2/authenticatelogin.php",
+		"/C/xampp/htdocs/sessioncart2/config.php",
+		"/C/xampp/htdocs/sessioncart2/main.js",
+		"/C/xampp/htdocs/cart2/cart_process.php",
+		"/C/xampp/htdocs/sessioncart2/logout.php",
+		"/C/xampp/htdocs/sessioncart/logout.php",
+		"/C/xampp/htdocs/sessioncart/login.php",
+		"/C/xampp/htdocs/sessioncart/show-cart.php",
+		"/C/xampp/htdocs/sessioncart/rating.css",
+		"/C/xampp/htdocs/sessioncart/ajax.php",
+		"/C/xampp/htdocs/sessioncart/main.js",
+		"/C/xampp/htdocs/sessioncart/payment.js",
+		"/C/Users/user pc/Downloads/rating-v3/display.php",
+		"/C/Users/user pc/Downloads/rating-v3/2.php",
+		"/C/Users/user pc/Downloads/rating-v3/1.php",
+		"/C/Users/user pc/Downloads/rating-v3/rating-ajax.js",
+		"/C/xampp/htdocs/sessioncart/rating.php",
+		"/C/Users/user pc/Downloads/rating-v3/button.php",
+		"/C/Users/user pc/Downloads/rating-v3/config.php",
+		"/C/Users/user pc/Downloads/rating-v3/common-tags2.php",
+		"/C/Users/user pc/Downloads/mycart.php",
+		"/C/xampp/htdocs/sessioncart/cart.sql",
+		"/C/xampp/htdocs/shoppingcart/database.php",
+		"/C/xampp/htdocs/shoppingcart/cartClass.php",
+		"/C/xampp/htdocs/shoppingcart/ajax.php",
+		"/C/xampp/htdocs/shoppingcart/main.js",
+		"/C/xampp/htdocs/sessioncart/cart.php",
+		"/C/xampp/htdocs/shoppingcart/cart.php",
+		"/C/xampp/htdocs/shoppingcart/index.php",
+		"/C/xampp/htdocs/shoppingcart/showcart.php",
+		"/C/xampp/htdocs/sessioncart/config.php",
+		"/C/xampp/htdocs/session cart/index.php",
+		"/C/Users/user pc/Downloads/session cart/index.php",
+		"/C/xampp/htdocs/cart2/view_cart.php",
+		"/C/xampp/htdocs/cart2/config.inc.php",
+		"/C/xampp/htdocs/cart2/index.php",
+		"/C/xampp/htdocs/eCart/layout_foot.php",
+		"/C/Users/user pc/Desktop/MyWebsites/cart2/config.inc.php",
+		"/C/xampp/htdocs/eCart/libs/css/custom.css",
+		"/C/xampp/htdocs/eCart/layout_head.php",
+		"/C/xampp/htdocs/eCart/config/database.php",
+		"/C/Users/user pc/Desktop/MyWebsites/cart2/index.php",
+		"/C/xampp/htdocs/eCart/navigation.php",
+		"/C/Users/user pc/Desktop/eCart/config/database.php",
+		"/C/Users/user pc/Desktop/MyWebsites/SCart/index.html",
+		"/C/Users/user pc/Desktop/larry_ullman_phpcart_code/code/ShoppingCart.php",
+		"/C/Users/user pc/Desktop/larry_ullman_phpcart_code/code/cart.php",
+		"/C/Users/user pc/Desktop/MyWebsites/cart2/view_cart.php",
+		"/C/Users/user pc/Desktop/MyWebsites/cart2/cart_process.php",
+		"/C/Users/user pc/Desktop/MyWebsites/CSS/index.html",
+		"/C/Users/user pc/Downloads/startbootstrap-shop-homepage-gh-pages/css/shop-homepage.css",
+		"/C/Users/user pc/Downloads/startbootstrap-shop-homepage-gh-pages/index.html",
+		"/C/Users/user pc/Desktop/MyWebsites/HTML/index.html",
+		"/C/Users/user pc/Desktop/MyWebsites/HTML/makespace.html",
+		"/C/xampp/htdocs/extension.php",
+		"/C/Users/user pc/Desktop/MyWebsites/shoppingcart/html/index.html",
+		"/C/Users/user pc/Desktop/1559130943675/file-hut/classes/Contact.php",
+		"/C/Users/user pc/Desktop/MyWebsites/script.js",
+		"/C/Users/user pc/Desktop/MyWebsites/reaction.html"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "Skype.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 366.0,
+	"status_bar_visible": false,
+	"template_settings":
+	{
+	}
+}
