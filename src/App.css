@@ -23,7 +23,7 @@
 
 body,html,div.board,div#root{
   height:100%;
-  overflow:;
+  overflow: auto;
 }
 
 div.board{
@@ -36,6 +36,8 @@ div.note{
   height:200px;
   width: 200px;
   background-color: #FFF933;
+  margin-top: 5px;
+  margin-left: 5px;
  
 }
 
@@ -46,7 +48,8 @@ div.note:active{
 div.note p{
   font-size: 22px;
   padding:5px;
-  font-family: "Shadows Into Light", Arial;
+  font-family: serif, Arial;
+  font-style: italic;
 }
 
 div.note:hover{
@@ -56,4 +59,10 @@ div.note:hover{
 span{
   position:absolute;
   margin:110px 0px 0px 120px;
+}
+
+button{
+  position: fixed;
+  margin:;
+
 }

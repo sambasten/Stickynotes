@@ -11,8 +11,9 @@ class Notes extends Component {
     }
 
     save = () =>{
-      var val= this.refs.newText.value;
-      alert ("Save Node value: " + val);
+      // var val= this.refs.newText.value;
+      // alert ("Save Node value: " + val);
+      this.props.onChange(this.refs.newText.value, this.props.index);
       this.setState({editing:false});
     }
     edit = () =>{
@@ -20,7 +21,8 @@ class Notes extends Component {
       }
 
     remove = () =>{
-        alert("Removing note");
+        // alert("Removing note");
+        this.props.onRemove(this.props.index);
       }
 
     // updateInputValue = (evt) => {
@@ -64,12 +66,18 @@ class Notes extends Component {
 class Board extends Component{
     constructor(props){
     super(props);
-    this.state={
-      notes: ['Call Bill',
-              'Email Lisa',
-              'Make Dental Appointment'
-              ]
-    };
+    this.state={value: "" ,notes: []};
+  }
+
+
+    add = value => {
+      this.setState(state => {
+      const notes = state.notes.concat(state.value);
+      return {
+        notes,
+        value: '',
+      };
+    });
   }
 
     proptypes = {
@@ -83,14 +91,31 @@ class Board extends Component{
       }
     }
 
+    update= (newText, i) =>{
+        var arr = this.state.notes;
+        arr[i] = newText;
+        this.setState({ notes: arr });
+    }
+
+    remove = (i) =>{
+        var arr = this.state.notes;
+        arr.splice(i,1);
+        this.setState({ notes:arr});
+    }
+
+    eachNote = (note, i) =>{
+      return (
+              <Notes key={i} index={i} onChange={this.update} onRemove={this.remove}>{note}</Notes>
+          )}
+
     render(){
         return (<div className="board">
-                   {this.state.notes.map(item => (
-                    <Notes key={item}>{item}</Notes>
-                    ))}
+                   {this.state.notes.map(
+                   this.eachNote)}
+                   <button className="btn btn-sm btn-success glyphicon glyphicon-plus" onClick={this.add}/>
                 </div>);
     }
 }
 
-export {Board, Notes};
+export default Board;
 

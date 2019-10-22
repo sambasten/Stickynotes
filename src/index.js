@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import {Notes, Board} from './App';
-// import Notes from './App';
-// import Board from './App';
+//import {Notes, Board} from './App';
+import Notes from './App';
+import Board from './App';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(<Board count={10}/>, document.getElementById('root'));
