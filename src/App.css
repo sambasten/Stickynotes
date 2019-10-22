@@ -36,8 +36,11 @@ div.note{
   height:200px;
   width: 200px;
   background-color: #FFF933;
-  margin-top: 5px;
-  margin-left: 5px;
+  margin-top: 2px 0;
+  position:absolute;
+  cursor:-webkit-grabbing;
+  -webkit-box-shadow:5px 5px 15px 0 rgba(0,0,0,0.2);
+  box-shadow: 5px 5px 15px 0 rgba(0,0,0,.2);
  
 }
 
@@ -58,7 +61,7 @@ div.note:hover{
 
 span{
   position:absolute;
-  margin:110px 0px 0px 120px;
+  margin:140px 0px 0px 120px;
 }
 
 button{

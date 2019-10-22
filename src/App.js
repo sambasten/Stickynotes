@@ -1,6 +1,8 @@
+import ReactDOM from 'react-dom';
 import React, {Component} from 'react';
 import logo from './logo.svg';
 import './App.css';
+const $ = window.$;
 
 class Notes extends Component {
 
@@ -8,6 +10,24 @@ class Notes extends Component {
     super(props);
     this.state= {editing:false ,
                  inputValue: ''};
+    }
+
+
+    componentWillMount = () =>{
+      this.style = {
+          right: this.randomBetween(0,window.innerWidth-200) + 'px',
+          top: this.randomBetween(0,window.innerHeight-200) + 'px',
+          transform: 'rotate(' + this.randomBetween(-15,15) + 'deg)'
+      };
+    }
+
+    randomBetween= (min, max)=>{
+      return (min + Math.ceil(Math.random()*max));
+    }
+
+    componentDidMount = () =>{
+      const node = ReactDOM.findDOMNode(this);
+      $(node).draggable();
     }
 
     save = () =>{
@@ -32,7 +52,7 @@ class Notes extends Component {
 
     handleForm = () => {
        return(
-            <div className="note">
+            <div className="note" style={this.style}>
               <textarea className="form-control" defaultValue= {this.props.children}  ref= "newText"></textarea>
               <button onClick={this.save} className="btn btn-success btn-sm glyphicon glyphicon-floppy-disk"/>
               </div>
@@ -41,7 +61,7 @@ class Notes extends Component {
 
     handleDisplay = () => {
         return(
-          <div className="note">
+          <div className="note" style={this.style}>
               <p>{this.props.children}</p>
               <span>
                   <button onClick={this.edit} className ="btn btn-primary glyphicon glyphicon-pencil"/>
@@ -68,11 +88,14 @@ class Board extends Component{
     super(props);
     this.state={value: "" ,notes: []};
   }
-
+    nextId = ()=>{
+      this.uniqueId = this.uniqueId || 0;
+      return this.uniqueId++;
+    }
 
     add = value => {
       this.setState(state => {
-      const notes = state.notes.concat(state.value);
+      const notes = state.notes.concat({ id:this.nextId(),note:state.value});
       return {
         notes,
         value: '',
@@ -93,7 +116,7 @@ class Board extends Component{
 
     update= (newText, i) =>{
         var arr = this.state.notes;
-        arr[i] = newText;
+        arr[i].note = newText;
         this.setState({ notes: arr });
     }
 
@@ -105,7 +128,7 @@ class Board extends Component{
 
     eachNote = (note, i) =>{
       return (
-              <Notes key={i} index={i} onChange={this.update} onRemove={this.remove}>{note}</Notes>
+              <Notes key={note.id} index={i} onChange={this.update} onRemove={this.remove}>{note.note}</Notes>
           )}
 
     render(){
